@@ -1,0 +1,15 @@
+fastapi
+environs
+ormar[postgresql]
+alembic
+uvicorn
+gunicorn
+httpx
+python-environ
+celery
+databases
+python-dateutil
+lxml
+
+
+-e git+http://github.com/andrej-shaikin/fastapi-utils.git@v0.0.9#egg=fastapi-utils

@@ -1,0 +1,22 @@
+[flake8]
+max-line-length = 125
+import-order-style = pycharm
+# показывать итоговое количество ошибок
+count = True
+# нумерация ошибок
+statistics = True
+# количество подпроцессов для параллельного запуска проверок
+jobs = auto
+
+exclude =
+    .git,
+    .gitignore,
+    *.pot,
+    *.py[co],
+    __pycache__,
+    .venv,
+    migrations,
+    .env,
+
+# Flake8 Rules (https://www.flake8rules.com/)
+ignore =

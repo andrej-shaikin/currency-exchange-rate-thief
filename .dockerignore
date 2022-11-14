@@ -1,0 +1,7 @@
+.venv
+*.db
+__pycache__
+*.pyc
+LICENSE
+README.md
+requirements/*.in
